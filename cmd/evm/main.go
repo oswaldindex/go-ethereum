@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/oswaldindex/arbi-geth/cmd/evm/internal/t8ntool"
+	"github.com/oswaldindex/arbi-geth/internal/debug"
+	"github.com/oswaldindex/arbi-geth/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

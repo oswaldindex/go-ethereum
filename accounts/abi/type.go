@@ -26,7 +26,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/oswaldindex/arbi-geth/common"
 )
 
 // Type enumerator

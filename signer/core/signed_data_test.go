@@ -27,13 +27,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/oswaldindex/arbi-geth/accounts/keystore"
+	"github.com/oswaldindex/arbi-geth/common"
+	"github.com/oswaldindex/arbi-geth/common/hexutil"
+	"github.com/oswaldindex/arbi-geth/common/math"
+	"github.com/oswaldindex/arbi-geth/crypto"
+	"github.com/oswaldindex/arbi-geth/signer/core"
+	"github.com/oswaldindex/arbi-geth/signer/core/apitypes"
 )
 
 var typesStandard = apitypes.Types{

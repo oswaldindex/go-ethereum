@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/oswaldindex/arbi-geth/common"
+	"github.com/oswaldindex/arbi-geth/ethdb"
+	"github.com/oswaldindex/arbi-geth/log"
+	"github.com/oswaldindex/arbi-geth/params"
+	"github.com/oswaldindex/arbi-geth/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

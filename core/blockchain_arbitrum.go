@@ -21,10 +21,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/oswaldindex/arbi-geth/core/state"
+	"github.com/oswaldindex/arbi-geth/core/types"
+	"github.com/oswaldindex/arbi-geth/log"
+	"github.com/oswaldindex/arbi-geth/rpc"
 )
 
 // WriteBlockAndSetHeadWithTime also counts processTime, which will cause intermittent TrieDirty cache writes

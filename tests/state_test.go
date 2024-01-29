@@ -28,13 +28,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
+	"github.com/oswaldindex/arbi-geth/core"
+	"github.com/oswaldindex/arbi-geth/core/rawdb"
+	"github.com/oswaldindex/arbi-geth/core/state"
+	"github.com/oswaldindex/arbi-geth/core/state/snapshot"
+	"github.com/oswaldindex/arbi-geth/core/types"
+	"github.com/oswaldindex/arbi-geth/core/vm"
+	"github.com/oswaldindex/arbi-geth/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

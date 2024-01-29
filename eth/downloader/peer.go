@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/msgrate"
+	"github.com/oswaldindex/arbi-geth/common"
+	"github.com/oswaldindex/arbi-geth/eth/protocols/eth"
+	"github.com/oswaldindex/arbi-geth/event"
+	"github.com/oswaldindex/arbi-geth/log"
+	"github.com/oswaldindex/arbi-geth/p2p/msgrate"
 )
 
 const (

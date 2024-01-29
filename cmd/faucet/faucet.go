@@ -39,25 +39,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/gorilla/websocket"
+	"github.com/oswaldindex/arbi-geth/accounts"
+	"github.com/oswaldindex/arbi-geth/accounts/keystore"
+	"github.com/oswaldindex/arbi-geth/cmd/utils"
+	"github.com/oswaldindex/arbi-geth/common"
+	"github.com/oswaldindex/arbi-geth/core"
+	"github.com/oswaldindex/arbi-geth/core/types"
+	"github.com/oswaldindex/arbi-geth/eth/downloader"
+	"github.com/oswaldindex/arbi-geth/eth/ethconfig"
+	"github.com/oswaldindex/arbi-geth/ethclient"
+	"github.com/oswaldindex/arbi-geth/ethstats"
+	"github.com/oswaldindex/arbi-geth/internal/version"
+	"github.com/oswaldindex/arbi-geth/les"
+	"github.com/oswaldindex/arbi-geth/log"
+	"github.com/oswaldindex/arbi-geth/node"
+	"github.com/oswaldindex/arbi-geth/p2p"
+	"github.com/oswaldindex/arbi-geth/p2p/enode"
+	"github.com/oswaldindex/arbi-geth/p2p/nat"
+	"github.com/oswaldindex/arbi-geth/params"
 )
 
 var (
@@ -458,7 +458,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ethereum/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/oswaldindex/arbi-geth/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

@@ -80,7 +80,7 @@ var (
 		"signer/rules/deps",
 
 		// skip special licenses
-		"crypto/secp256k1", // Relicensed to BSD-3 via https://github.com/ethereum/go-ethereum/pull/17225
+		"github.com/ethereum/go-ethereum/crypto/secp256k1", // Relicensed to BSD-3 via https://github.com/oswaldindex/arbi-geth/pull/17225
 	}
 
 	// paths with this prefix are licensed as GPL. all other files are LGPL.
@@ -293,8 +293,14 @@ func writeAuthors(files []string) {
 		}
 	}
 	// Write sorted list of authors back to the file.
-	slices.SortFunc(list, func(a, b string) bool {
-		return strings.ToLower(a) < strings.ToLower(b)
+	slices.SortFunc(list, func(a, b string) int {
+		if strings.ToLower(a) < strings.ToLower(b) {
+			return -1
+		} else if strings.ToLower(a) > strings.ToLower(b) {
+			return 1
+		} else {
+			return 0
+		}
 	})
 	content := new(bytes.Buffer)
 	content.WriteString(authorsFileHeader)

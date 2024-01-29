@@ -2,7 +2,7 @@
 
 package types
 
-import "github.com/ethereum/go-ethereum/rlp"
+import "github.com/oswaldindex/arbi-geth/rlp"
 import "io"
 
 func (obj *Log) EncodeRLP(_w io.Writer) error {

@@ -21,8 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/oswaldindex/arbi-geth/accounts/keystore"
+	"github.com/oswaldindex/arbi-geth/cmd/utils"
 	"github.com/urfave/cli/v2"
 )
 

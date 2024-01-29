@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/tests/fuzzers/les"
+	"github.com/oswaldindex/arbi-geth/tests/fuzzers/les"
 )
 
 func main() {

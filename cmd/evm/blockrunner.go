@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/oswaldindex/arbi-geth/core/rawdb"
+	"github.com/oswaldindex/arbi-geth/core/vm"
+	"github.com/oswaldindex/arbi-geth/eth/tracers/logger"
+	"github.com/oswaldindex/arbi-geth/tests"
 	"github.com/urfave/cli/v2"
 )
 

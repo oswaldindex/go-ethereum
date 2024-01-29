@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/oswaldindex/arbi-geth/common"
 )
 
 type keyStorePlain struct {

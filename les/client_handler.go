@@ -20,13 +20,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/oswaldindex/arbi-geth/common"
+	"github.com/oswaldindex/arbi-geth/common/mclock"
+	"github.com/oswaldindex/arbi-geth/core/forkid"
+	"github.com/oswaldindex/arbi-geth/core/types"
+	"github.com/oswaldindex/arbi-geth/light"
+	"github.com/oswaldindex/arbi-geth/p2p"
+	"github.com/oswaldindex/arbi-geth/trie/trienode"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

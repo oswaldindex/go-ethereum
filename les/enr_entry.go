@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/oswaldindex/arbi-geth/core/forkid"
+	"github.com/oswaldindex/arbi-geth/p2p/dnsdisc"
+	"github.com/oswaldindex/arbi-geth/p2p/enode"
+	"github.com/oswaldindex/arbi-geth/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.
